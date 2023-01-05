@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact_me.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <title>Join Us</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/sahaye/finale.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">How we works</a></li>
+          <!-- <li><a class="main-nav-link" href="#meals">Meals</a></li> -->
+          <li>
+            <a class="main-nav-link" href="index.html">Testimonials</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="/contact-me.html">Join Us</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Donate Resources</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <div class="container">
+      <form
+        action="mailto:kalwani.naman1406@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <h1 class="main_heading">Join Us</h1>
+        <p class="subheading">
+          One of the greatest gifts you can give is your time
+        </p>
+
+        <hr />
+        <label>Full Name</label>
+        <input
+          type="text"
+          name="yourName"
+          placeholder="ex. chandler bing "
+        /><br />
+        <label>Mobile</label>
+        <input type="text" name="yourMobile" placeholder="+91" /><br />
+        <label>Email</label>
+        <input
+          type="email"
+          name="yourEmail"
+          inputmode="email"
+          placeholder="valid email address"
+        /><br />
+        <label>Your message</label>
+        <textarea
+          name="yourMessage"
+          cols="30"
+          rows="9"
+          placeholder=""
+        ></textarea
+        ><br />
+        <input type="checkbox" />
+        <span class="check-text"
+          >Hereby, I accept Terms and conditions of Sahaye</span
+        >
+        <input type="submit" class="submit" />
+      </form>
+    </div>
+  </body>
+</html>
